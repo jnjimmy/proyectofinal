@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+header {
+  background-color: #e69603;
+  position: relative;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.nav-bar--logo {
+  width: 5rem;
+}
+.nav-bar--logo img {
+  width: 100%;
+}
+
+.nav-bar--cart {
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-size: 2rem;
+  
+}
+
+.carrito-compras {
+  position: absolute;
+  top: 107px;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 8px;
+  z-index: 2;
+}
+.carrito-compras img {
+  width: 70px;
+}
+.carrito-compras .compras {
+  display: flex;
+  gap: 2rem;
+  padding: 2px;
+  align-items: center;
+  justify-content: space-between;
+}
+.carrito-compras .carrito-compras--categorias {
+  display: flex;
+  gap: 5rem;
+}
+
+.borrar {
+  display: block;
+  background-color: rgb(182, 3, 3);
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.disabled {
+  display: none;
+}
+
+button {
+  margin-top: 8px;
+  background-color: rgb(175, 3, 3);
+  border: none;
+  border-radius: 5px;
+}
+
+main {
+  background-color: #a01c1c;
+}
+
+.carousel img {
+  height: 700px;
+  border-radius: 10px;
+}
+
+.texto-titulo {
+  color: rgb(233, 154, 7);
+}
+.texto-titulo h1 {
+  font-size: 5rem;
+}
+.texto-titulo p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-food {
+  margin-top: 3rem;
+  background-color: #e69603;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.grid-food .grid-food--card {
+  display: flex;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.grid-food img {
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+}
+.grid-food a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+  background-color: green;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  background-color: #e69603;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

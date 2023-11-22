@@ -1,0 +1,32 @@
+.grid-food{
+    margin-top: 3rem;
+    background-color:#e69603 ;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    padding: 2rem;
+    border-radius: 10px;
+    .grid-food--card{
+        display: flex;
+        background-color: antiquewhite;
+        border-radius: 8px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    img{
+        width: 100%;
+        height: 220px;
+        border-radius: 8px;
+    }
+    a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 2px;
+        background-color: green;
+        border-radius: 5px;
+        margin: 3px;
+    }
+    
+}
